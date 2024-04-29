@@ -1,0 +1,3 @@
+/home/ubuntu/rysteria/Client/build/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/rysteria/Client/build/CMakeFiles/edit_cache.dir
+/home/ubuntu/rysteria/Client/build/CMakeFiles/rrolf-client.dir

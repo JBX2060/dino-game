@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sign In</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    #inputBox {
+        width: 300px;
+        height: 100px;
+        font-size: 16px;
+        margin: 50px auto;
+    }
+    #submitButton {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+
+<textarea id="inputBox" placeholder="Account ID"></textarea><br>
+<button id="submitButton">Enter</button>
+
+<script>
+    document.getElementById('submitButton').addEventListener('click', function() {
+        var newValue = document.getElementById('inputBox').value.trim(); 
+        if (newValue.length === 36) {
+            localStorage.setItem('rivet_account_uuid', newValue);
+            alert('Logged in successfully! Please note if your ID is wrong it will not work.');
+            window.location.href = "https://rwar.fun";
+        } else {
+            alert('Hmm... Double Check your ID number. Remember that you can click your ID to copy-paste.');
+        }
+    });
+</script>
+
+</body>
+</html>
