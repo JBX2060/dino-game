@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RWAR!</title>
+        <link href="logo.png" rel="icon" type="image/png">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu:700" rel="stylesheet" type="text/css">
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+                overflow: hidden;
+            }
+
+            .rrolf
+            {
+                position: absolute;
+                left: 0px;
+                right: 0px;
+            }
+
+            #canvas {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                width: 100%;
+                height: 100%;
+                cursor: default;
+            }
+
+            input {
+                background: none;
+                border: none;
+                outline: none;
+                padding-left: 2px;
+            }
+
+            html, body {
+                height: 100%;
+            }
+
+            body {
+                display: flex;
+            }
+
+            #rrolf-error {
+                display: none;
+                font: 48px Ubuntu;
+                margin: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="rrolf-error">Sorry, the server is not running</h2>
+        <h2 id="rrolf-error">Join for more info: https://discord.gg/fAYHThYGzd</h2>
+        <script>
+            function rrolfError() {
+                document.querySelector("#rrolf-error").style.display = "block";
+                setTimeout(() => window.location.reload(), 10000);
+            }
+        </script>
+        <script src="https://8080-maxnest0x0-rysteria-vel0gxgut59.ws-eu110.gitpod.io/rrolf-client" onerror="rrolfError()"></script>
+    </body>
+</html>

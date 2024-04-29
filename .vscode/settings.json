@@ -1,0 +1,31 @@
+{
+    "files.associations": {
+        "typeindex": "c",
+        "typeinfo": "c",
+        "*.inc": "c",
+        "utilities.h": "c",
+        "staticdata.h": "c",
+        "*.ipp": "c",
+        "regex": "c",
+        "time.h": "c",
+        "bitset.h": "c",
+        "thread": "c",
+        "__locale": "c",
+        "locale": "c",
+        "vector.h": "c",
+        "server.h": "c",
+        "renderer.h": "c",
+        "dom.h": "c",
+        "stdlib.h": "c",
+        "logs.h": "c",
+        "simulation.h": "c",
+        "updateprotocol.h": "c",
+        "waves.h": "c",
+        "cjson.h": "c",
+        "crypto.h": "c",
+        "profanityfilter.h": "c",
+        "regex.h": "c",
+        "string": "c",
+        "ui.h": "c"
+    }
+}

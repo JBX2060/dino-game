@@ -1,0 +1,20 @@
+build/
+frontend_release_build/
+node_modules/
+MasterServer/DatabaseBackups
+.vs/
+emsdk/
+
+rrolf-client
+rrolf-client.wasm
+database.json
+logs.txt
+
+### Rivet ###
+.rivet/
+*.env
+
+
+# Added by cargo
+target/
+
